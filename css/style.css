@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif; }
+
+.form-group {
+  font-weight: 300; }
+
+.title-div {
+  text-align: start; }
+
+.title-text {
+  font-size: 2rem;
+  color: #444;
+  text-transform: uppercase; }
+
+.form-field {
+  font-size: 1.6rem;
+  color: #444; }
+
+.buttons {
+  width: 80%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around; }
+
+.btn {
+  font-size: 1.3rem;
+  font-weight: 300;
+  -webkit-appearance: none; }
+
+.buttons {
+  width: 80%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around; }
+
+.btn {
+  width: 13rem;
+  padding: 1.2rem 0;
+  border: none;
+  border-radius: .5rem; }
+
+.btn:hover {
+  cursor: pointer; }
+
+.btn-primary {
+  color: white;
+  background-color: #325bad; }
+
+.btn-secondary {
+  color: white;
+  background-color: #adadad; }
+
+.btn-danger {
+  color: white;
+  background-color: #ad3244; }
+
+.btn-success {
+  color: white;
+  background-color: #32ad65; }
+
+.btn-warning {
+  color: white;
+  background-color: #e3d14d; }
+
+.btn-info {
+  color: white;
+  background-color: #6080bf; }
+
+.form-container {
+  width: 40rem;
+  border: 1px solid #D0D0D0;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white; }
+
+.form-hover {
+  border: none;
+  box-shadow: 0 .5rem 2rem #c0c0c0; }
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: .5rem; }
+
+.title-div {
+  width: 80%;
+  padding: 2rem 0; }
+
+.form-field {
+  margin-top: .5rem;
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 0 1.2rem; }

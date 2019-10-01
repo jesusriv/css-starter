@@ -1,0 +1,35 @@
+.form-container {
+  width: 40rem;
+  border: 1px solid #D0D0D0;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.form-hover {
+  border: none;
+  box-shadow: 0 .5rem 2rem #c0c0c0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: .5rem;
+}
+
+.title-div {
+  width: 80%;
+  padding: 2rem 0;
+}
+
+.form-field {
+  margin-top: .5rem;
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 0 1.2rem;
+}

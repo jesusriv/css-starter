@@ -1,0 +1,36 @@
+body {
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.form-group {
+  font-weight: 300;
+}
+
+.title-div {
+  text-align: start;
+}
+
+.title-text {
+  font-size: 2rem;
+  color:  #444;
+  text-transform: uppercase;
+}
+
+.form-field {
+  font-size: 1.6rem;
+  color: #444;
+}
+
+.buttons {
+  width: 80%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  font-size: 1.3rem;
+  font-weight: 300;
+  -webkit-appearance: none;
+}

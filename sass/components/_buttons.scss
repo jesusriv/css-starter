@@ -1,0 +1,47 @@
+.buttons {
+  width: 80%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 13rem;
+  padding: 1.2rem 0;
+  border: none;
+  border-radius: .5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: white;
+  background-color: $color-primary;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: $color-secondary;
+}
+
+.btn-danger {
+  color: white;
+  background-color: $color-danger;
+}
+
+.btn-success {
+  color: white;
+  background-color: $color-success;
+}
+
+.btn-warning {
+  color: white;
+  background-color: $color-warning;
+}
+
+.btn-info {
+  color: white;
+  background-color: $color-info;
+}
