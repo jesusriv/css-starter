@@ -26,7 +26,8 @@ body {
 .title-div {
   text-align: start; }
 
-.title-text {
+.title-text,
+.card-title {
   font-size: 2rem;
   color: #444;
   text-transform: uppercase; }
@@ -45,6 +46,19 @@ body {
   font-size: 1.3rem;
   font-weight: 300;
   -webkit-appearance: none; }
+
+.card-header {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #444; }
+
+.card-title {
+  font-size: 1.8rem;
+  color: #444; }
+
+.card-p {
+  font-size: 1.3rem;
+  color: #444; }
 
 .buttons {
   width: 80%;
@@ -115,3 +129,61 @@ body {
   border-radius: 5px;
   border: 1px solid #d3d3d3;
   padding: 0 1.2rem; }
+
+.table {
+  width: 45rem;
+  border-collapse: collapse;
+  border: 1px solid #D0D0D0; }
+
+thead,
+th {
+  color: white;
+  padding: 1rem 0;
+  border: 1px solid #D0D0D0; }
+
+td {
+  padding: 1rem;
+  border: 1px solid #d0d0d0; }
+
+.card {
+  width: 30rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 1rem; }
+
+.card-content {
+  padding: 1.5rem; }
+
+.card-header {
+  padding: 1.5rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom: 1px solid #d0d0d0; }
+
+.card-title,
+.card-p {
+  margin-bottom: 1rem; }
+
+.bg-primary {
+  background-color: #325bad;
+  color: white;
+  border: none; }
+
+.bg-secondary {
+  background-color: #adadad;
+  color: white;
+  border: none; }
+
+.bg-danger {
+  background-color: #ad3244;
+  color: white;
+  border: none; }
+
+.bg-warning {
+  background-color: #e3d14d;
+  color: white;
+  border: none; }
+
+.bg-info {
+  background-color: #6080bf;
+  color: white;
+  border: none; }

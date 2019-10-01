@@ -1,13 +1,13 @@
 {
-  "name": "css-starter",
+  "name": "css-starter-library",
   "version": "1.0.0",
-  "description": "",
+  "description": "A starter css library.",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jesus Rivera",
   "license": "ISC",
   "dependencies": {
     "node-sass": "^4.12.0"

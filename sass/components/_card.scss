@@ -1,0 +1,21 @@
+.card {
+  width: 30rem;
+  border: 1px solid $color-light-grey;
+  border-radius: 1rem;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-header {
+  padding: 1.5rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom: 1px solid $color-light-grey;
+}
+
+.card-title,
+.card-p {
+  margin-bottom: 1rem;
+}
